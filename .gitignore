@@ -1,0 +1,75 @@
+# Ignore arquivos e diretórios gerados pelo JUCE Projucer
+JuceLibraryCode/
+*.jucer
+
+# Pastas de build e binários
+Builds/
+build/
+bin/
+
+# Configurações específicas do Xcode
+*.xcworkspace/
+*.xcuserdatad/
+*.xcuserdata/
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.mode2v3
+*.xcodeproj/*.perspectivev3
+*.xcodeproj/project.xcworkspace/
+*.xcscmblueprint
+*.xccheckout
+
+# Arquivos de build temporários e logs do Xcode
+DerivedData/
+build/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.tmp
+*.temp
+*.log
+*.diff
+
+# Configurações de usuários do Xcode (não necessárias no repositório)
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Arquivos temporários e de backup
+*.swp
+*~
+*.swo
+*.swn
+*.tmp
+*.temp
+*.bak
+*.backup
+*.DS_Store
+*Icon?
+*.lock
+
+# Arquivos de sistema do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos de banco de dados de rede
+._*
+
+# Ignorar arquivos criados pelo Finder
+.Spotlight-V100
+.Trashes
+
+# Ignorar arquivos de atributo estendido
+*.com.apple.timemachine.*
+
+# Ignore arquivos de cache do Spotlight
+.VolumeIcon.icns
+
+# Arquivos Thumbs.db e .DS_Store gerados pelo Windows e macOS
+Thumbs.db
